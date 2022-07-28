@@ -1,5 +1,12 @@
+body {
+    margin: 0;
+    font-family: 'Luxurious Roman', cursive;
+
+}
+
 .flexible-secton {
     display: flex;
+    margin-bottom: 3%;
 }
 
 #bg-image {
@@ -11,6 +18,10 @@ h1 {
     font-family: 'Bree Serif', serif;
     font-size: 50px;
     line-height: 20px;
+}
+
+h3 {
+    font-family: 'Bree Serif', serif;
 }
 
 a {
@@ -26,6 +37,43 @@ a {
     padding-top: 10%;
     padding-left: 0;
     padding-right: 10%;
+}
+
+.third-division {
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.two-photo-section {
+    width: 34%;
+    margin-left: 3%;
+    padding-right: 0;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-top: solid 5px orange;
+    border-left: solid 5px orange;
+    border-radius: 15px;
+    box-shadow: 10px 10px 8px grey;
+}
+
+.followers-section {
+    display: flex;
+    width: 72%;
+    margin-left: 3%;
+    padding-right: 0;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 2%;
+    margin-bottom: 3%;
+    border-top: solid 5px orange;
+    border-left: solid 5px orange;
+    border-radius: 15px;
+    box-shadow: 10px 10px 8px grey;
+}
+
+.two-photo-section img {
+    width: 60%;
+    margin-left: 8%;
 }
 
 .half-width {
@@ -52,6 +100,38 @@ a {
     text-align: left;
 }
 
+.recipi-p {
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 30%;
+
+}
+
+.two-photo-p {
+    text-align: left;
+    padding-right: 15%;
+}
+
 .color-orange {
     color: orange;
+}
+
+#third-followers {
+    margin-left: 20%;
+    text-align: right;
+}
+
+#second-followers {
+    text-align: center;
+    margin-left: 20%;
+}
+
+#first-followers {
+    margin-left: 4%;
+}
+
+footer {
+    color: aliceblue;
+    background-color: black;
+    text-align: center;
 }
